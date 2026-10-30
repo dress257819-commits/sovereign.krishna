@@ -14,10 +14,15 @@ Then open http://localhost:8000. You can also use VS Code Live Server.
 
 ## Publish with GitHub Pages
 
-1. Create a GitHub repository for this site and upload the contents of `sovereign.krishna` to that repository's root.
-2. In **Settings → Pages**, choose **Deploy from a branch**.
-3. Select the branch you want to publish and the repository root (`/`) as the folder.
-4. If using a custom domain, configure it in GitHub Pages and update the canonical URL in `index.html`.
+1. Push the contents of this folder to the root of a GitHub repository on the `main` branch. The GitHub account you use must have write access to that repository.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+4. Wait for the Pages deployment to finish. A project site is usually available at `https://<owner>.github.io/<repository>/`.
+5. If using a custom domain, configure it in GitHub Pages and update the canonical URL in `index.html`.
+
+## Contact form
+
+The contact form submits directly to `sovereignkrishna111@gmail.com` through FormSubmit; visitors do not need an email app. On the first real submission, FormSubmit sends a verification email to that inbox. Open it and confirm the address before expecting submissions to be delivered. Check spam/junk if the verification email is not in the inbox. FormSubmit is a third-party service that processes the form submission.
 
 This folder is self-contained: `index.html`, `styles.css`, `script.js`, the animation scripts, favicon, and `assets/` make up the website. The original source folder is separate.
 
@@ -28,4 +33,4 @@ This folder is self-contained: `index.html`, `styles.css`, `script.js`, the anim
 - The sample project names are still placeholders and should be updated to match the actual projects before launch.
 - GSAP and Lenis enhance the animations and smooth scrolling when their CDN scripts are available; the page remains readable without them and respects reduced-motion settings.
 - The project gallery intentionally labels the supplied sample projects as concepts/placeholders.
-- The contact form opens the visitor's email application with the message addressed to `dhirajbhattarai111@gmail.com`; it does not submit data to a server.
+- The contact form requires the one-time FormSubmit email verification described above.
