@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0eb">
+  <meta name="description" content="Meet Sovereign Krishna — Krishna Bhattarai, a developer, designer, writer, and entrepreneur building ideas in Jhapa, Nepal.">
+  <meta name="author" content="Krishna Bhattarai">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://www.codewithkrishna.com/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Sovereign Krishna — Developer &amp; Entrepreneur">
+  <meta property="og:description" content="Developer, entrepreneur, and CEO of SONGOLI from Jhapa, Nepal.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" sizes="128x128" href="assets/favicon-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.css">
+  <link rel="stylesheet" href="styles.css?v=18">
+  <script>
+    document.documentElement.classList.add('js');
+    try {
+      window.__playIntro = sessionStorage.getItem('sovereign-krishna-intro-played') !== '1';
+      if (window.__playIntro) sessionStorage.setItem('sovereign-krishna-intro-played', '1');
+      else document.documentElement.classList.add('intro-seen');
+    } catch (error) {
+      window.__playIntro = true;
+    }
+    setTimeout(function () {
+      if (!window.__siteReady) document.documentElement.classList.remove('js');
+    }, 4000);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Krishna Bhattarai",
+    "url": "https://www.codewithkrishna.com/",
+    "jobTitle": "Developer, Entrepreneur, CEO of SONGOLI",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jhapa",
+      "addressCountry": "NP"
+    },
+    "sameAs": [
+      "https://x.com/sov_krishna",
+      "https://www.facebook.com/sovereign.krishna",
+      "https://www.instagram.com/sovereign.krishna_/",
+      "https://www.linkedin.com/in/krishna-bhattarai-663690349/",
+      "https://www.tiktok.com/@sovereign.krishna_"
+    ]
+  }
+  </script>
+  <title>Sovereign Krishna — Krishna Bhattarai | Developer &amp; Entrepreneur</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__stage" id="loaderStage">
+      <img class="loader__glow" id="loaderGlow" src="assets/portrait-glow.webp" alt="" width="889" height="1483">
+      <img class="loader__photo" id="loaderPhoto" src="assets/loader_hero.png" alt="" width="1086" height="1448" fetchpriority="high">
+    </div>
+    <div class="loader__inner">
+      <span class="loader__name">Krishna Bhattarai</span>
+      <span class="loader__count" id="loaderCount">0</span>
+    </div>
+  </div>
+
+  <canvas class="fx" id="fx" aria-hidden="true"></canvas>
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label" id="cursorLabel"></span></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" data-scroll>Sovereign Krishna</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about" data-scroll class="u-link">About</a>
+      <a href="#skills" data-scroll class="u-link">Skills</a>
+      <a href="#work" data-scroll class="u-link">Work</a>
+      <a href="#journey" data-scroll class="u-link">Journey</a>
+    </nav>
+    <a href="#contact" data-scroll class="nav__cta pill" data-magnetic>
+      <span class="roll"><span>Let's talk</span><span aria-hidden="true">Let's talk</span></span>
+    </a>
+    <button class="nav__menu" id="menuBtn" aria-expanded="false" aria-controls="menu" type="button">
+      <span class="nav__menu-label">Menu</span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#about" data-scroll><span>About</span></a>
+      <a href="#skills" data-scroll><span>Skills</span></a>
+      <a href="#work" data-scroll><span>Selected work</span></a>
+      <a href="#journey" data-scroll><span>Journey</span></a>
+      <a href="#contact" data-scroll><span>Contact</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a href="https://www.instagram.com/sovereign.krishna_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.linkedin.com/in/krishna-bhattarai-663690349/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__top">
+        <p>Developer &amp; entrepreneur<br><span class="muted">Founder &amp; CEO of SONGOLI</span></p>
+        <p class="hero__time">Jhapa, Nepal<br><span class="muted" id="localTime">--:--</span></p>
+      </div>
+
+      <h1 class="hero__name" aria-label="Krishna Bhattarai">
+        <span class="line" data-split>Krish<span class="hl" id="heroHl"><span class="hl__bg" aria-hidden="true"></span>na</span></span>
+        <span class="line line--right" data-split>Bhattarai</span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__intro fade-up">
+          I'm Krishna: a self-taught web developer, designer, writer, and entrepreneur, always learning and making.
+        </p>
+        <a href="#about" data-scroll class="hero__scroll fade-up" aria-label="Scroll down">
+          <span>Scroll</span>
+          <span class="hero__scroll-line"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="statement" id="about">
+      <div class="wrap">
+        <p class="label">01 / A little about me</p>
+        <p class="statement__text" data-words>
+          I'm Krishna Bhattarai, a self-taught web designer, frontend developer, content writer, entrepreneur, and UI/UX designer. I learn by building, care about making digital experiences thoughtful and useful, and lead SONGOLI as its owner and CEO. I'm always looking for ways to grow and make a positive impact through technology and beyond.
+        </p>
+
+        <dl class="numbers">
+          <div class="numbers__item">
+            <dd><span data-count="30">30</span></dd>
+            <dt>happy clients</dt>
+          </div>
+          <div class="numbers__item">
+            <dd><span data-count="111">111</span></dd>
+            <dt>projects completed</dt>
+          </div>
+          <div class="numbers__item">
+            <dd><span data-count="200">200</span></dd>
+            <dt>hours of support</dt>
+          </div>
+          <div class="numbers__item">
+            <dd><span data-count="5">5</span></dd>
+            <dt>team members</dt>
+          </div>
+        </dl>
+
+        <dl class="personal-details">
+          <div><dt>Birthday</dt><dd>May 7, 2008</dd></div>
+          <div><dt>Age</dt><dd>18</dd></div>
+          <div><dt>Location</dt><dd>Jhapa Surunga, Nepal</dd></div>
+          <div><dt>Education</dt><dd>+2 Graduate</dd></div>
+          <div><dt>Freelance</dt><dd>Available</dd></div>
+          <div><dt>Website</dt><dd><a href="https://www.codewithkrishna.com/" target="_blank" rel="noopener noreferrer">codewithkrishna.com ↗</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:sovereignkrishna111@gmail.com">sovereignkrishna111@gmail.com</a></dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+9779749208803">+977 9749208803</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Areas of work">
+      <div class="marquee__track" id="marquee">
+        <div class="marquee__group">
+          <span>Ideas into reality</span><span class="marquee__dot"></span>
+          <span>Web development</span><span class="marquee__dot"></span>
+          <span>Design &amp; branding</span><span class="marquee__dot"></span>
+          <span>Entrepreneurship</span><span class="marquee__dot"></span>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span>Ideas into reality</span><span class="marquee__dot"></span>
+          <span>Web development</span><span class="marquee__dot"></span>
+          <span>Design &amp; branding</span><span class="marquee__dot"></span>
+          <span>Entrepreneurship</span><span class="marquee__dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section dark" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" data-split-lines>What I use</h2>
+          <p class="section-side fade-up">A snapshot of my current strengths and the areas I keep developing.</p>
+        </div>
+        <div class="skills-list">
+          <div class="skill-row"><span>HTML</span><div class="skill-track" role="progressbar" aria-label="HTML proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width:75%"></span></div><strong>75%</strong></div>
+          <div class="skill-row"><span>CSS</span><div class="skill-track" role="progressbar" aria-label="CSS proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="width:60%"></span></div><strong>60%</strong></div>
+          <div class="skill-row"><span>JavaScript</span><div class="skill-track" role="progressbar" aria-label="JavaScript proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45"><span style="width:45%"></span></div><strong>45%</strong></div>
+          <div class="skill-row"><span>C++</span><div class="skill-track" role="progressbar" aria-label="C++ proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30"><span style="width:30%"></span></div><strong>30%</strong></div>
+          <div class="skill-row"><span>WordPress / CMS</span><div class="skill-track" role="progressbar" aria-label="WordPress and CMS proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="width:90%"></span></div><strong>90%</strong></div>
+          <div class="skill-row"><span>Figma</span><div class="skill-track" role="progressbar" aria-label="Figma proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="width:55%"></span></div><strong>55%</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey" id="journey">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" data-split-lines>Learning, building</h2>
+          <p class="section-side fade-up">Steady growth, practical experience, and impactful digital work.</p>
+        </div>
+        <ol class="rows">
+          <li class="row"><span class="row__n">01</span><h3>Higher Secondary Education</h3><p>2023 — Present · Jhapa, Nepal<br>Jhapa Marigold English Secondary School. Developing web skills alongside my studies, with a goal of scoring above 92% in my final exams.</p></li>
+          <li class="row"><span class="row__n">02</span><h3>Entrepreneur &amp; freelance web developer</h3><p>2024 — Present · Self-employed<br>Founder and CEO of SONGOLI. Learning and applying web development concepts while building projects and a professional portfolio.</p></li>
+          <li class="row"><span class="row__n">03</span><h3>Building with HTML, CSS &amp; JavaScript</h3><p>Self-directed learning · Jhapa, Nepal<br>Building small projects, exploring freelance work and digital solutions, practicing problem-solving, and creating design presentations and client proposals.</p></li>
+          <li class="row row--now"><span class="row__n">04</span><h3>Growing through every project</h3><p>Driven by a love of learning and a focus on JavaScript, frontend development, and contributing to work that matters.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="ventures work-section" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" data-split-lines>Selected work</h2>
+          <p class="section-side fade-up">A selection of ideas across apps, products, and books. Concept entries are clearly marked.</p>
+        </div>
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter is-active" type="button" data-filter="All" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="App" aria-pressed="false">App</button>
+          <button class="filter" type="button" data-filter="Product" aria-pressed="false">Product</button>
+          <button class="filter" type="button" data-filter="Books" aria-pressed="false">Books</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-tile" data-category="App"><div class="project-art"><img src="assets/app2.jpg" alt="" loading="lazy"><span>01 / APP</span><strong>01</strong><i></i></div><div class="project-caption"><div><h3>App 1</h3><p>Application concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="App"><div class="project-art"><img src="assets/app3.jpg" alt="" loading="lazy"><span>02 / APP</span><strong>02</strong><i></i></div><div class="project-caption"><div><h3>App 2</h3><p>Application concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="App"><div class="project-art"><img src="assets/app4.jpg" alt="" loading="lazy"><span>03 / APP</span><strong>03</strong><i></i></div><div class="project-caption"><div><h3>App 3</h3><p>Application concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Product"><div class="project-art"><img src="assets/product1.png" alt="" loading="lazy"><span>04 / PRODUCT</span><strong>04</strong><i></i></div><div class="project-caption"><div><h3>Product 1</h3><p>Product concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Product"><div class="project-art"><img src="assets/product2.png" alt="" loading="lazy"><span>05 / PRODUCT</span><strong>05</strong><i></i></div><div class="project-caption"><div><h3>Product 2</h3><p>Product concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Product"><div class="project-art"><img src="assets/product3.png" alt="" loading="lazy"><span>06 / PRODUCT</span><strong>06</strong><i></i></div><div class="project-caption"><div><h3>Product 3</h3><p>Product concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Books"><div class="project-art"><img src="assets/6519454_MAIN.webp" alt="" loading="lazy"><span>07 / BOOKS</span><strong>Aa</strong><i></i></div><div class="project-caption"><div><h3>Book 1</h3><p>Book concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Books"><div class="project-art"><img src="assets/book%202.webp" alt="" loading="lazy"><span>08 / BOOKS</span><strong>Aa</strong><i></i></div><div class="project-caption"><div><h3>Book 2</h3><p>Book concept</p></div><span aria-hidden="true">↗</span></div></article>
+          <article class="project-tile" data-category="Books"><div class="project-art"><img src="assets/book3.jpg" alt="" loading="lazy"><span>09 / BOOKS</span><strong>Aa</strong><i></i></div><div class="project-caption"><div><h3>Book 3</h3><p>Book concept</p></div><span aria-hidden="true">↗</span></div></article>
+        </div>
+        <p class="project-note">Project names are placeholders; update them with the actual project names and details before publishing.</p>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" data-split-lines>What I do</h2>
+          <p class="section-side fade-up">Good work starts with a good conversation. Here are ways we can work together.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card"><span>01</span><h3>Web development</h3><p>Responsive, engaging websites built with HTML, CSS, JavaScript, and React, with your brand and visitors in mind.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+          <article class="service-card"><span>02</span><h3>Design &amp; branding</h3><p>Distinctive visual identities and intuitive interfaces shaped around your vision, audience, and goals.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+          <article class="service-card"><span>03</span><h3>Entrepreneurial consulting</h3><p>Practical perspective on starting and growing a business, informed by building SONGOLI.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+          <article class="service-card"><span>04</span><h3>Community outreach</h3><p>Support for local initiatives, awareness campaigns, and events that bring people together.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+          <article class="service-card"><span>05</span><h3>Public speaking &amp; hosting</h3><p>Confident hosting and speaking for events, conferences, and live programs.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+          <article class="service-card"><span>06</span><h3>Writing</h3><p>Poetry and thoughtful custom writing for personal projects, special occasions, and stories worth telling.</p><a href="#contact" data-scroll class="u-link">Discuss this service ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section dark">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" data-split-lines>Kind words</h2>
+          <p class="section-side fade-up">What collaborators say.</p>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card"><span class="quote-mark" aria-hidden="true">“</span><p>Working with Krishna has been an absolute revelation. Despite his young age, his entrepreneurial vision and technical mastery rival seasoned professionals. He doesn't just build websites; he engineers digital experiences that truly elevate a brand's presence.</p><footer><span>01</span><span><strong>Nitesh Bishukarma</strong><small>Chairman &amp; Founder</small></span></footer></blockquote>
+          <blockquote class="testimonial-card"><span class="quote-mark" aria-hidden="true">“</span><p>Krishna's ability to translate complex design concepts into seamless, interactive web interfaces is extraordinary. His intuitive grasp of modern UI/UX principles ensures that every project is visually stunning and incredibly user-friendly.</p><footer><span>02</span><span><strong>Ankita Khanal</strong><small>Designer</small></span></footer></blockquote>
+          <blockquote class="testimonial-card"><span class="quote-mark" aria-hidden="true">“</span><p>Collaborating with Krishna completely transformed my business. He crafted a dynamic, high-performing website that drove our online engagement. His strategic thinking and dedication are simply unmatched.</p><footer><span>03</span><span><strong>Binit Baral</strong><small>Store Owner</small></span></footer></blockquote>
+          <blockquote class="testimonial-card"><span class="quote-mark" aria-hidden="true">“</span><p>I needed a portfolio that captured my unique aesthetic, and Krishna delivered beyond my expectations. His attention to detail and creative brilliance resulted in a thoughtful website.</p><footer><span>04</span><span><strong>Salina Mainali</strong><small>Model</small></span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact dark" id="contact">
+      <div class="wrap">
+        <p class="label">07 / Open to projects, collaborations and conversations</p>
+        <div class="contact__layout">
+          <div>
+            <a href="mailto:sovereignkrishna111@gmail.com" class="contact__big" data-cursor="Email me" aria-label="Email Krishna Bhattarai">
+              <span class="line" data-split>Have an idea?</span>
+              <span class="line" data-split>Let's talk.</span>
+            </a>
+            <p class="contact__intro">Feel free to reach out for collaborations, inquiries, or just a friendly chat. I'd love to hear what you're working on.</p>
+            <address class="contact__details">
+              <a href="https://maps.google.com/?q=Kankai-4%2C+Surunga%2C+Jhapa%2C+Nepal" target="_blank" rel="noopener noreferrer">Kankai-4, Surunga, Jhapa, Nepal ↗</a>
+              <a href="tel:+9779749208803">+977 9749208803</a>
+              <a href="mailto:sovereignkrishna111@gmail.com">sovereignkrishna111@gmail.com</a>
+            </address>
+            <div class="contact__links">
+              <a href="https://x.com/sov_krishna" target="_blank" rel="noopener noreferrer" class="pill pill--light" data-magnetic><span class="roll"><span>X · @sov_krishna ↗</span><span aria-hidden="true">X · @sov_krishna ↗</span></span></a>
+              <a href="https://www.instagram.com/sovereign.krishna_/" target="_blank" rel="noopener noreferrer" class="pill pill--outline" data-magnetic><span class="roll"><span>Instagram · @sovereign.krishna_ ↗</span><span aria-hidden="true">Instagram · @sovereign.krishna_ ↗</span></span></a>
+              <a href="https://www.linkedin.com/in/krishna-bhattarai-663690349/" target="_blank" rel="noopener noreferrer" class="pill pill--outline" data-magnetic><span class="roll"><span>LinkedIn · krishna-bhattarai-663690349 ↗</span><span aria-hidden="true">LinkedIn · krishna-bhattarai-663690349 ↗</span></span></a>
+              <a href="https://www.facebook.com/sovereign.krishna" target="_blank" rel="noopener noreferrer" class="pill pill--outline" data-magnetic aria-label="Find me on Facebook"><span class="roll"><span>Facebook ↗</span><span aria-hidden="true">Facebook ↗</span></span></a>
+              <a href="https://www.tiktok.com/@sovereign.krishna_" target="_blank" rel="noopener noreferrer" class="pill pill--outline" data-magnetic><span class="roll"><span>TikTok · @sovereign.krishna_ ↗</span><span aria-hidden="true">TikTok · @sovereign.krishna_ ↗</span></span></a>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formsubmit.co/sovereignkrishna111@gmail.com" method="POST">
+            <label for="contactName">Your name</label>
+            <input id="contactName" name="name" type="text" autocomplete="name" required>
+            <label for="contactEmail">Your email</label>
+            <input id="contactEmail" name="email" type="email" autocomplete="email" required>
+            <label for="contactSubject">Subject</label>
+            <input id="contactSubject" name="_subject" type="text" required>
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" rows="5" required></textarea>
+            <button class="pill pill--light" type="submit"><span class="roll"><span>Send message ↗</span><span aria-hidden="true">Send message ↗</span></span></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer wrap">
+        <p>© <span id="year">2026</span> Sovereign Krishna</p>
+        <p>Developer · Entrepreneur · Jhapa, Nepal</p>
+        <a href="#top" data-scroll class="u-link">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="intro.js"></script>
+  <script src="script.js?v=2"></script>
+  <script src="cursor-trail.js"></script>
+</body>
+</html>
